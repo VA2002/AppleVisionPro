@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Sanfrancisco;
+    src: url(san_francisco-webfont.woff);
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+    font-family: Bahnschrift SemiBold;
+    font-size: 20px;
+}
+
+#Logo {
+    margin-top: 1%;
+}
+
+.Header {
+    background-color: rgb(17, 16, 16);
+    color: white;
+    font-family: Bahnschrift SemiBold;
+    font-size: 58px;
+    height: 200px;
+    width: 101.5%;
+    margin-left: -1%;
+    margin-top: -4%;
+    z-index: 3;
+    position: fixed;
+}
+
+#apple-vision {
+    border: 9px outset;
+    margin-top: -29%;
+    margin-left: -55%;
+    animation: pop 0.5s;
+}
+
+#apple-vision:hover{
+    box-shadow: 5px 5px 10px rgb(77, 77, 77);
+    rotate: 3deg;
+    transition: 0.2s;
+}
+
+.Promotion {
+    font-size: 30px;
+    margin-left: 3%;
+    margin-top: -5%;
+    animation: pop 1.2s;
+}
+
+.About {
+    color: rgb(109, 109, 109);
+    font-family: Bahnschrift SemiBold;
+    font-size: 17.5px;
+    margin-top: 5%;
+    margin-left: 40%;
+    animation: pop 1.4s;
+}
+
+#price {
+    font-size: 21px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: pop 1.6s;
+}
+
+#buynow {
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 30px;
+    color: black;
+    width: 202px;
+    height: 60px;
+    animation: pop 1.8s;
+}
+
+#buynow:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 4px 4px 8px rgb(77, 77, 77);
+    transition: 0.3s;
+}
+
+.Footer {
+    background-color: rgb(17, 16, 16);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 90px;
+    width: 101.5%;
+    margin-left: -1%;
+    margin-bottom: -1%;
+
+}
+
+@keyframes pop {
+    0% {opacity: 0%;}
+    100% {opacity: 90%;}
+  }
+
+@keyframes pop2 {
+    0% {opacity: 0%;}
+    100% {opacity: 70%;}
+  }
